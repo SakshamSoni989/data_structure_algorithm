@@ -10,7 +10,6 @@ class linkedlist
     }
  public static void main(String[] args) {
      Node a =new Node(1);
-     System.out.println(a.next);
      Node b =new Node(2);
      Node c =new Node(3);
      Node d =new Node(4);
