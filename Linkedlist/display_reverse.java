@@ -1,10 +1,10 @@
-class display_by_recursevly
-{
-     public static void displayr(Node head)
+public class display_reverse {
+    
+ public static void displayreverse(Node head)
      { 
         if(head==null) return;
-        System.out.println(head.data);
-        displayr(head.next);
+        displayreverse(head.next);
+        System.out.print(head.data + " ");
      }
       public static class Node{
         int data;
@@ -24,6 +24,6 @@ class display_by_recursevly
      b.next=c;
      c.next=d;
      d.next=e;
-     displayr(a);
+     displayreverse(a);
  }
 }
